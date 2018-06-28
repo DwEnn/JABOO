@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "233968742057",
+    "project_id": "firebase-jaboo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233968742057:android:bef03d6a50a44198",
+        "android_client_info": {
+          "package_name": "com.example.prgoh.jaboo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233968742057-2ojeq7qh0euuea5a3inf5togd3vqmd5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prgoh.jaboo",
+            "certificate_hash": "540efe0721ce0042492a9c81e4122b4c05b6b7d1"
+          }
+        },
+        {
+          "client_id": "233968742057-5g3esrjeuum8eecrs8q5baks4ugdrml8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrW1Ed74lPSY0I5ImxptA0e3dI757OsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

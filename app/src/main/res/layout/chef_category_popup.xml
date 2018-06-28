@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/chef_category_layout1"
+            android:onClick="onClick"
+            android:background="@drawable/chef_category_icon_background"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:scale_base_width="200"
+                app:scale_base_height="200">
+
+                <ImageView
+                    app:scale_top="10"
+                    app:scale_left="10"
+                    app:scale_width="180"
+                    app:scale_height="180"
+                    android:src="@drawable/potato"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_textsize="22"
+                    app:scale_top="170"
+                    android:text="감자"
+                    app:scale_width="200"
+                    app:scale_height="25"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chef_category_layout2"
+            android:onClick="onClick"
+            android:background="@drawable/chef_category_icon_background"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:scale_base_width="200"
+                app:scale_base_height="200">
+
+                <ImageView
+                    app:scale_top="10"
+                    app:scale_left="10"
+                    app:scale_width="180"
+                    app:scale_height="180"
+                    android:src="@drawable/potato1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_textsize="22"
+                    app:scale_top="170"
+                    android:text="고구마"
+                    app:scale_width="200"
+                    app:scale_height="25"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/chef_category_layout3"
+            android:onClick="onClick"
+            android:background="@drawable/chef_category_icon_background"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:scale_base_width="200"
+                app:scale_base_height="200">
+
+                <ImageView
+                    app:scale_top="10"
+                    app:scale_left="10"
+                    app:scale_width="180"
+                    app:scale_height="180"
+                    android:src="@drawable/potato"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_textsize="22"
+                    app:scale_top="170"
+                    android:text="감자"
+                    app:scale_width="200"
+                    app:scale_height="25"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chef_category_layout4"
+            android:onClick="onClick"
+            android:background="@drawable/chef_category_icon_background"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:scale_base_width="200"
+                app:scale_base_height="200">
+
+                <ImageView
+                    app:scale_top="10"
+                    app:scale_left="10"
+                    app:scale_width="180"
+                    app:scale_height="180"
+                    android:src="@drawable/potato1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_textsize="22"
+                    app:scale_top="170"
+                    android:text="고구마"
+                    app:scale_width="200"
+                    app:scale_height="25"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</layout>

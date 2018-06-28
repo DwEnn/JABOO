@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e8dfcc</color>
+    <color name="colorPrimaryDark">#cccccc</color>
+    <color name="colorAccent">#e8dfcc</color>
+
+    <color name="navigatiorbar">#ffffff</color>
+    <color name="navigationbar_textColor">#000000</color>
+
+    <color name="point_color">#ffff66</color>
+    <color name="selected_card">#ff9999</color>
+</resources>

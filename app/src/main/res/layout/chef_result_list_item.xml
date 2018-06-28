@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/chef_result_card"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <RelativeLayout
+            android:id="@+id/chef_result_img"
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:background="@drawable/list3">
+
+        </RelativeLayout>
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_base_height="315"
+            app:scale_base_width="300">
+
+            <ImageView
+                android:id="@+id/chef_result_like_btn"
+                app:scale_top="255"
+                app:scale_left="255"
+                android:src="@drawable/chef_result_like_btn_en"
+                app:scale_width="35"
+                app:scale_height="35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--<View-->
+                <!--app:scale_top="170"-->
+                <!--app:scale_width="300"-->
+                <!--app:scale_height="55"-->
+                <!--android:background="@drawable/chef_result_card"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+            <TextView
+                android:id="@+id/chef_result_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="name"
+                android:textColor="@android:color/black"
+                app:scale_top="260"
+                app:scale_height="35"
+                app:scale_left="5"
+                app:scale_textsize="40"
+                app:scale_width="150" />
+
+            <TextView
+                android:id="@+id/chef_result_ingredient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="name"
+                android:textColor="@android:color/black"
+                app:scale_height="20"
+                app:scale_left="5"
+                app:scale_textsize="15"
+                app:scale_top="295"
+                app:scale_width="150" />
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:scale_base_height="600"
+                app:scale_base_width="300">
+
+                <ImageView
+                    android:id="@+id/chef_category_1"
+                    app:scale_top="10"
+                    app:scale_left="25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dummy_rice"
+                    app:scale_height="100"
+                    app:scale_width="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="밥"
+                    android:textColor="@android:color/black"
+                    app:scale_height="25"
+                    app:scale_left="25"
+                    app:scale_textsize="18"
+                    app:scale_top="100"
+                    app:scale_width="100" />
+
+                <ImageView
+                    android:id="@+id/chef_category_2"
+                    app:scale_top="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dummy_kimchi"
+                    app:scale_height="100"
+                    app:scale_left="175"
+                    app:scale_width="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="김치"
+                    android:textColor="@android:color/black"
+                    app:scale_height="25"
+                    app:scale_left="175"
+                    app:scale_textsize="18"
+                    app:scale_top="100"
+                    app:scale_width="100" />
+
+                <ImageView
+                    android:id="@+id/chef_category_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dummy_steak"
+                    app:scale_height="100"
+                    app:scale_top="130"
+                    app:scale_left="25"
+                    app:scale_width="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="육 류"
+                    android:textColor="@android:color/black"
+                    app:scale_height="25"
+                    app:scale_textsize="18"
+                    app:scale_left="25"
+                    app:scale_top="220"
+                    app:scale_width="100" />
+
+                <ImageView
+                    android:id="@+id/chef_category_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dummy_canned"
+                    app:scale_height="90"
+                    app:scale_left="175"
+                    app:scale_top="130"
+                    app:scale_width="90" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="통조림"
+                    android:textColor="@android:color/black"
+                    app:scale_height="25"
+                    app:scale_left="175"
+                    app:scale_textsize="18"
+                    app:scale_top="220"
+                    app:scale_width="100" />
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</layout>

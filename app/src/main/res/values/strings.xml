@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JABOO</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="kakao_app_key">9b5987df57ddce26d28c93117f6034a1</string>
+
+    <string name="facebook_app_id">2025052044396978</string>
+    <string name="fb_login_protocol_scheme">fb2025052044396978</string>
+
+
+</resources>
